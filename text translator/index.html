@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translator</title>
+<link rel="stylesheet" href="project1.css">
+    <script src="https://kit.fontawesome.com/2592ea12af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="text">
+        <div class="input-text">
+        <textarea placeholder="Enter Text" id="input-text" onkeyup="genrate()"></textarea>
+        </div>
+        <div class="output-text">
+            <textarea placeholder="transalting..." id="output-text"></textarea>
+        </div>
+    </div>
+    <div class="selector">
+        <select id="first" ></select>
+        <i class="fas fa-exchange-alt fa-xl"></i>
+        <select  id="second"></select>
+    </div>
+  
+    </div>
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
